@@ -4,4 +4,5 @@ Bundle-Name: Module1
 Bundle-SymbolicName: test.module1
 Bundle-Version: 0.0.1.qualifier
 Export-Package: test.test.parent
-Require-Bundle: com.github.oxo42.stateless4j
+Require-Bundle: org.apache.commons.io,
+ org.mapdb.mapdb

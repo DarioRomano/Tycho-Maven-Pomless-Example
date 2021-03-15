@@ -2,6 +2,7 @@ Manifest-Version: 1.0
 Bundle-SymbolicName: test.module1
 Export-Package: test.test.parent
 Bundle-Name: Module1
-Bundle-Version: 0.0.1.202103151018
+Bundle-Version: 0.0.1.202103151102
+Require-Bundle: com.github.oxo42.stateless4j
 Bundle-ManifestVersion: 2
 

@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?artifactRepository version='1.1.0'?>
 <artifacts size='1'>
-  <artifact classifier='osgi.bundle' id='test.module1' version='0.0.1.202103151018'>
+  <artifact classifier='osgi.bundle' id='test.module1' version='0.0.1.202103151102'>
     <properties size='5'>
-      <property name='artifact.size' value='2253'/>
-      <property name='download.size' value='2253'/>
+      <property name='artifact.size' value='2335'/>
+      <property name='download.size' value='2335'/>
       <property name='maven-groupId' value='test'/>
       <property name='maven-artifactId' value='test.module1'/>
       <property name='maven-version' value='0.0.1-SNAPSHOT'/>

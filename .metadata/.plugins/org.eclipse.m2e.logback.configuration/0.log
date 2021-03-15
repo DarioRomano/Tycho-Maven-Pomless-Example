@@ -319,3 +319,5 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2021-03-15 11:27:48,324 [Worker-38] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: test:test.parent:0.0.1-SNAPSHOT @ C:\Workspaces\ExampleWorkspace\test.parent\pom.xml.
 2021-03-15 11:28:22,699 [Worker-44] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Workspaces\ExampleWorkspace\test.parent
 2021-03-15 11:28:22,699 [Worker-44] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2021-03-15 11:50:16,728 [Worker-52] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Workspaces\ExampleWorkspace\test.parent
+2021-03-15 11:50:16,729 [Worker-52] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install

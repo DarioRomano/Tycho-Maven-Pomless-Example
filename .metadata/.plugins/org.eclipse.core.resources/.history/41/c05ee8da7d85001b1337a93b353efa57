@@ -1,6 +1,6 @@
 package test.test.parent;
 
-import com.github.oxo42.stateless4j.conversion.ParameterConversion;
+import com.github.oxo42.stateless4j.StateMachine;
 /**
  * Hello world!
  *
@@ -10,6 +10,6 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
-        ParameterConversion.validate(null,null);
+        StateMachine s=new StateMachine();
     }
 }
