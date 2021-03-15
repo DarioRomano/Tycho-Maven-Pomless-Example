@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: test.module1
+Export-Package: test.test.parent
+Bundle-Name: Module1
+Bundle-Version: 0.0.1.202103151018
+Bundle-ManifestVersion: 2
+

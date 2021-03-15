@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Module1
+Bundle-SymbolicName: test.module1
+Bundle-Version: 1.0.0.qualifier

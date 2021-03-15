@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='test.module1' version='0.0.1.202103151018' singleton='false'>
+    <update id='test.module1' range='[0.0.0,0.0.1.202103151018)' severity='0'/>
+    <properties size='4'>
+      <property name='org.eclipse.equinox.p2.name' value='Module1'/>
+      <property name='maven-groupId' value='test'/>
+      <property name='maven-artifactId' value='test.module1'/>
+      <property name='maven-version' value='0.0.1-SNAPSHOT'/>
+    </properties>
+    <provides size='5'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='test.module1' version='0.0.1.202103151018'/>
+      <provided namespace='osgi.bundle' name='test.module1' version='0.0.1.202103151018'/>
+      <provided namespace='java.package' name='test.test.parent' version='0.0.0'/>
+      <provided namespace='osgi.identity' name='test.module1' version='0.0.1.202103151018'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='test.module1' version='0.0.1.202103151018'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: test.module1&#xA;Bundle-Version: 0.0.1.202103151018&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>
